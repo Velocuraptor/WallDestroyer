@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3266673985746033002}
   - component: {fileID: 1471567425872057331}
   - component: {fileID: 223863472585036943}
+  - component: {fileID: 5510907413595480554}
+  - component: {fileID: 2700875916796239399}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -107,10 +109,36 @@ BoxCollider:
   m_GameObject: {fileID: 87761202093209858}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.010704964, y: 0.0005999999, z: 0.008250296}
   m_Center: {x: 0.0007166746, y: 1.0187925e-18, z: -0.00048959814}
+--- !u!64 &5510907413595480554
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87761202093209858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7641948127085445478, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &2700875916796239399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87761202093209858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &199092861184508831
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +152,8 @@ GameObject:
   - component: {fileID: 252123711748878187}
   - component: {fileID: 9075237965386586375}
   - component: {fileID: 9040603916004909477}
+  - component: {fileID: 5490861112066821020}
+  - component: {fileID: 8578751587882853587}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -218,10 +248,36 @@ BoxCollider:
   m_GameObject: {fileID: 199092861184508831}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.006204412, y: 0.0005999999, z: 0.011165211}
   m_Center: {x: -0.00011838041, y: 0.000018370218, z: 0.0013706037}
+--- !u!64 &5490861112066821020
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199092861184508831}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2892015211251007695, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &8578751587882853587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199092861184508831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &295650590610538743
 GameObject:
   m_ObjectHideFlags: 0
@@ -235,6 +291,8 @@ GameObject:
   - component: {fileID: 4138723623129392826}
   - component: {fileID: 3665780210918162894}
   - component: {fileID: 8173826735571126635}
+  - component: {fileID: 8475265475901169117}
+  - component: {fileID: 6482916694083296375}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -329,10 +387,36 @@ BoxCollider:
   m_GameObject: {fileID: 295650590610538743}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0073694554, y: 0.0005999999, z: 0.008415976}
   m_Center: {x: 0.0015650217, y: 1.4551912e-10, z: 0.00145894}
+--- !u!64 &8475265475901169117
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295650590610538743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4130623488625926497, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &6482916694083296375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295650590610538743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &373241334340386446
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +430,8 @@ GameObject:
   - component: {fileID: 3547936871559925025}
   - component: {fileID: 2470882686297655407}
   - component: {fileID: 6573859208422426626}
+  - component: {fileID: 3664479879432040685}
+  - component: {fileID: 5073715864877712525}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -440,10 +526,36 @@ BoxCollider:
   m_GameObject: {fileID: 373241334340386446}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0059416723, y: 0.00059999956, z: 0.0071131294}
   m_Center: {x: -0.0007745583, y: 0.00002400354, z: -0.0013196053}
+--- !u!64 &3664479879432040685
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373241334340386446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3449077440702217646, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &5073715864877712525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373241334340386446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &394773544791721612
 GameObject:
   m_ObjectHideFlags: 0
@@ -457,6 +569,8 @@ GameObject:
   - component: {fileID: 5240233802925638007}
   - component: {fileID: 1463896850782384065}
   - component: {fileID: 5743511161673059064}
+  - component: {fileID: 8418410868822507371}
+  - component: {fileID: 5625264243169990478}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -551,10 +665,36 @@ BoxCollider:
   m_GameObject: {fileID: 394773544791721612}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0063380403, y: 0.0005999999, z: 0.0068922243}
   m_Center: {x: -0.00041480956, y: -3.0559016e-10, z: -0.00036677456}
+--- !u!64 &8418410868822507371
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394773544791721612}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3744952043271048744, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &5625264243169990478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394773544791721612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &950920363575835870
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,6 +708,8 @@ GameObject:
   - component: {fileID: 6926783467234414563}
   - component: {fileID: 1203083483404761507}
   - component: {fileID: 1740620100900576905}
+  - component: {fileID: 4708935343958952226}
+  - component: {fileID: 8427098789069971952}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -662,10 +804,36 @@ BoxCollider:
   m_GameObject: {fileID: 950920363575835870}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.012239156, y: 0.00059999985, z: 0.008878269}
   m_Center: {x: -0.00048163137, y: -6.846655e-19, z: 0.0009078909}
+--- !u!64 &4708935343958952226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950920363575835870}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4785877010036880936, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &8427098789069971952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950920363575835870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1263501628870241048
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,6 +847,8 @@ GameObject:
   - component: {fileID: 7134659192104899003}
   - component: {fileID: 2020948827315111830}
   - component: {fileID: 7503181819022168996}
+  - component: {fileID: 6749624666407354089}
+  - component: {fileID: 8175022845679628460}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -773,10 +943,36 @@ BoxCollider:
   m_GameObject: {fileID: 1263501628870241048}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.010491423, y: 0.0005999998, z: 0.011037021}
   m_Center: {x: 0.00052572205, y: 0.0000048901848, z: -0.00023114072}
+--- !u!64 &6749624666407354089
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263501628870241048}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5582601643039380411, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &8175022845679628460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263501628870241048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1264134258971082685
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +986,8 @@ GameObject:
   - component: {fileID: 6694558215227137548}
   - component: {fileID: 4364812534422431835}
   - component: {fileID: 5437089090946022841}
+  - component: {fileID: 8348605844026063028}
+  - component: {fileID: 7864759822354951893}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -884,10 +1082,36 @@ BoxCollider:
   m_GameObject: {fileID: 1264134258971082685}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.008942106, y: 0.0005999999, z: 0.0062209163}
   m_Center: {x: 0.00093462097, y: -3.0559016e-10, z: -0.000116267685}
+--- !u!64 &8348605844026063028
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264134258971082685}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4364516649673625031, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7864759822354951893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264134258971082685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1340356797557342202
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,6 +1125,8 @@ GameObject:
   - component: {fileID: 1926564326857712536}
   - component: {fileID: 4577284340211517194}
   - component: {fileID: 9183516261885045339}
+  - component: {fileID: 9143678012902517878}
+  - component: {fileID: 3964527060434200711}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -995,10 +1221,36 @@ BoxCollider:
   m_GameObject: {fileID: 1340356797557342202}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.008374625, y: 0.0005999999, z: 0.009552961}
   m_Center: {x: 0.00073045015, y: 0.000021783704, z: 0.00043755412}
+--- !u!64 &9143678012902517878
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340356797557342202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4596422728647792003, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3964527060434200711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340356797557342202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1390988500999286962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1264,8 @@ GameObject:
   - component: {fileID: 3071228542271229816}
   - component: {fileID: 1175444959621685257}
   - component: {fileID: 1089139592422752957}
+  - component: {fileID: 1198050993643403412}
+  - component: {fileID: 4641430141378573969}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1106,10 +1360,36 @@ BoxCollider:
   m_GameObject: {fileID: 1390988500999286962}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.006620505, y: 0.0005999999, z: 0.0046206326}
   m_Center: {x: 0.000026744325, y: -0.000041237763, z: -0.00023235074}
+--- !u!64 &1198050993643403412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390988500999286962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8547856553496210073, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4641430141378573969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390988500999286962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1600307936207644123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1123,6 +1403,8 @@ GameObject:
   - component: {fileID: 1218685214285454437}
   - component: {fileID: 7083809271135012558}
   - component: {fileID: 6888298885236222642}
+  - component: {fileID: 5922380343558926027}
+  - component: {fileID: 7133854830311449429}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1217,10 +1499,36 @@ BoxCollider:
   m_GameObject: {fileID: 1600307936207644123}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.009668274, y: 0.0005999999, z: 0.0019440589}
   m_Center: {x: 0.0005756193, y: 4.365574e-11, z: 0.00040962783}
+--- !u!64 &5922380343558926027
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600307936207644123}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3901742461176028224, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7133854830311449429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600307936207644123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2024673573679387524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,6 +1542,8 @@ GameObject:
   - component: {fileID: 2244709273345284411}
   - component: {fileID: 3319132401257229161}
   - component: {fileID: 1992234523250144940}
+  - component: {fileID: 7987590815606861820}
+  - component: {fileID: 9057299033593198299}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1328,10 +1638,36 @@ BoxCollider:
   m_GameObject: {fileID: 2024673573679387524}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0026459587, y: 0.00059999985, z: 0.008767247}
   m_Center: {x: -0.00018301338, y: -0.000010145797, z: 0.0009926416}
+--- !u!64 &7987590815606861820
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024673573679387524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6025908073496960589, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &9057299033593198299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024673573679387524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2154960120509687184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1345,6 +1681,8 @@ GameObject:
   - component: {fileID: 3836692621885539680}
   - component: {fileID: 2120534992719238909}
   - component: {fileID: 645852802872853409}
+  - component: {fileID: 8581772075965280971}
+  - component: {fileID: 3745137491584317952}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1439,10 +1777,36 @@ BoxCollider:
   m_GameObject: {fileID: 2154960120509687184}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0028968519, y: 0.0005999999, z: 0.0036810122}
   m_Center: {x: 0.00018630619, y: 2.6484452e-19, z: 0.000032319447}
+--- !u!64 &8581772075965280971
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154960120509687184}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1303681965768186480, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3745137491584317952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154960120509687184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2202750852276519931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1456,6 +1820,8 @@ GameObject:
   - component: {fileID: 6573639589319431829}
   - component: {fileID: 6969442864478949836}
   - component: {fileID: 4763408681897059154}
+  - component: {fileID: 6248596185530406142}
+  - component: {fileID: 6070996141409802479}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1550,10 +1916,36 @@ BoxCollider:
   m_GameObject: {fileID: 2202750852276519931}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0038023037, y: 0.0005999998, z: 0.0054764496}
   m_Center: {x: 0.00037020276, y: -0.000023076933, z: -0.0001448757}
+--- !u!64 &6248596185530406142
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2202750852276519931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1848666650473467909, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &6070996141409802479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2202750852276519931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2267459002611013708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1567,6 +1959,8 @@ GameObject:
   - component: {fileID: 8407551897654009836}
   - component: {fileID: 4146036789706542188}
   - component: {fileID: 5307639142551687048}
+  - component: {fileID: 5323153934917712681}
+  - component: {fileID: 4462099418658895710}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1661,10 +2055,36 @@ BoxCollider:
   m_GameObject: {fileID: 2267459002611013708}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0019030821, y: 0.0005999999, z: 0.0054040775}
   m_Center: {x: -0.000027713773, y: -3.9396654e-20, z: 0.0004470933}
+--- !u!64 &5323153934917712681
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2267459002611013708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6845181977087966689, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4462099418658895710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2267459002611013708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2307273470342428366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,6 +2098,8 @@ GameObject:
   - component: {fileID: 7801420901554266112}
   - component: {fileID: 4100493221783187842}
   - component: {fileID: 2964846087717637493}
+  - component: {fileID: 4854534189200566735}
+  - component: {fileID: 4152783593760058376}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1772,10 +2194,36 @@ BoxCollider:
   m_GameObject: {fileID: 2307273470342428366}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0064329635, y: 0.0005999999, z: 0.0029509156}
   m_Center: {x: 0.00050146575, y: 7.128612e-19, z: 0.0000049602813}
+--- !u!64 &4854534189200566735
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307273470342428366}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3063467942922132695, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4152783593760058376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2307273470342428366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2501782879996591991
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +2237,8 @@ GameObject:
   - component: {fileID: 2189355447663871527}
   - component: {fileID: 3836665607492974952}
   - component: {fileID: 5048791479424319919}
+  - component: {fileID: 2828079377134221969}
+  - component: {fileID: 1402208317684152826}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1883,10 +2333,36 @@ BoxCollider:
   m_GameObject: {fileID: 2501782879996591991}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.010361623, y: 0.0005999999, z: 0.010455118}
   m_Center: {x: -0.0008745806, y: -0.000035775687, z: 0.001444698}
+--- !u!64 &2828079377134221969
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501782879996591991}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6421912417066313209, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &1402208317684152826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2501782879996591991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2598179580225945116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,6 +2376,8 @@ GameObject:
   - component: {fileID: 2385562352701475235}
   - component: {fileID: 5005511826176058491}
   - component: {fileID: 8464433399682771606}
+  - component: {fileID: 8931775558377652966}
+  - component: {fileID: 1497531230910790982}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -1994,10 +2472,36 @@ BoxCollider:
   m_GameObject: {fileID: 2598179580225945116}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.011238374, y: 0.0005999999, z: 0.006308724}
   m_Center: {x: -0.00063816225, y: 7.275956e-11, z: -0.000050143797}
+--- !u!64 &8931775558377652966
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598179580225945116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1704726403805661433, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &1497531230910790982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2598179580225945116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3721020287610668192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2011,6 +2515,8 @@ GameObject:
   - component: {fileID: 694578609962426265}
   - component: {fileID: 9207666890117794817}
   - component: {fileID: 4443807135906988445}
+  - component: {fileID: 6227900386205776625}
+  - component: {fileID: 5186077859286250920}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2105,10 +2611,36 @@ BoxCollider:
   m_GameObject: {fileID: 3721020287610668192}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.009753615, y: 0.0005999999, z: 0.012557569}
   m_Center: {x: -0.0005856042, y: -0.000010344984, z: 0.00074311474}
+--- !u!64 &6227900386205776625
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3721020287610668192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8651760758057392030, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &5186077859286250920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3721020287610668192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3943394856140856806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2122,6 +2654,8 @@ GameObject:
   - component: {fileID: 7863030874970773305}
   - component: {fileID: 1794019308983751473}
   - component: {fileID: 2907335519915937787}
+  - component: {fileID: 5724199142666327395}
+  - component: {fileID: 2820372965235783579}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2216,10 +2750,36 @@ BoxCollider:
   m_GameObject: {fileID: 3943394856140856806}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0057864664, y: 0.0005999999, z: 0.006792937}
   m_Center: {x: 0.0004065407, y: 7.275956e-11, z: 0.0004385526}
+--- !u!64 &5724199142666327395
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943394856140856806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7758186078940782761, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &2820372965235783579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943394856140856806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4286001673897650309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2233,6 +2793,8 @@ GameObject:
   - component: {fileID: 3527210282913116003}
   - component: {fileID: 3226313065441236604}
   - component: {fileID: 4129972802835828371}
+  - component: {fileID: 6479327228272575723}
+  - component: {fileID: 7336521915003134229}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2327,10 +2889,36 @@ BoxCollider:
   m_GameObject: {fileID: 4286001673897650309}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.009016508, y: 0.00059999985, z: 0.012182283}
   m_Center: {x: 0.000006522052, y: -0.00000894864, z: -0.00072772044}
+--- !u!64 &6479327228272575723
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4286001673897650309}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4975766541227002599, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7336521915003134229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4286001673897650309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4843256225591759298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,6 +2932,8 @@ GameObject:
   - component: {fileID: 5782857428835349981}
   - component: {fileID: 6524848038526635833}
   - component: {fileID: 1900651634365568484}
+  - component: {fileID: 2634184970674228808}
+  - component: {fileID: 3216944767022363985}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2438,10 +3028,36 @@ BoxCollider:
   m_GameObject: {fileID: 4843256225591759298}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0036422713, y: 0.0005999999, z: 0.0111909285}
   m_Center: {x: -0.00019704766, y: 0.000000891683, z: -0.0001282666}
+--- !u!64 &2634184970674228808
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843256225591759298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9180187126510820361, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3216944767022363985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4843256225591759298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5413015315957478936
 GameObject:
   m_ObjectHideFlags: 0
@@ -2455,6 +3071,8 @@ GameObject:
   - component: {fileID: 533259259788943926}
   - component: {fileID: 3492985308040584211}
   - component: {fileID: 2351886727880246577}
+  - component: {fileID: 7296628976573246551}
+  - component: {fileID: 6070915973022313326}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2549,10 +3167,36 @@ BoxCollider:
   m_GameObject: {fileID: 5413015315957478936}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0072758803, y: 0.0005999999, z: 0.009216147}
   m_Center: {x: 0.0003264189, y: 4.640224e-19, z: 0.0004440473}
+--- !u!64 &7296628976573246551
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413015315957478936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6975870805220707279, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &6070915973022313326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5413015315957478936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5435073675469008691
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +3210,8 @@ GameObject:
   - component: {fileID: 5099088266042573716}
   - component: {fileID: 7034515975412177650}
   - component: {fileID: 3101553168524038311}
+  - component: {fileID: 7008510193722412202}
+  - component: {fileID: 1173753148927138614}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2660,10 +3306,36 @@ BoxCollider:
   m_GameObject: {fileID: 5435073675469008691}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0043706633, y: 0.0005054639, z: 0.0040364116}
   m_Center: {x: -0.0007289334, y: 0.00011948583, z: -0.00022832504}
+--- !u!64 &7008510193722412202
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435073675469008691}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4383630576681542623, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &1173753148927138614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5435073675469008691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5556883146957792627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2677,6 +3349,8 @@ GameObject:
   - component: {fileID: 913203964792389795}
   - component: {fileID: 2036029775051524611}
   - component: {fileID: 631152534528802749}
+  - component: {fileID: 2648561720875303960}
+  - component: {fileID: 731338632967824257}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2771,10 +3445,36 @@ BoxCollider:
   m_GameObject: {fileID: 5556883146957792627}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0048213555, y: 0.0005999999, z: 0.008874429}
   m_Center: {x: 0.00013063115, y: -0.0000027233323, z: -0.0009545185}
+--- !u!64 &2648561720875303960
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5556883146957792627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1892199594819710439, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &731338632967824257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5556883146957792627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5636104657060936891
 GameObject:
   m_ObjectHideFlags: 0
@@ -2788,6 +3488,8 @@ GameObject:
   - component: {fileID: 4965542479992592006}
   - component: {fileID: 3159041769460274960}
   - component: {fileID: 5691611199958379720}
+  - component: {fileID: 1634581761359904520}
+  - component: {fileID: 7467552255903134454}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2882,10 +3584,36 @@ BoxCollider:
   m_GameObject: {fileID: 5636104657060936891}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.00007100493, y: 0.0005999999, z: 0.000608822}
   m_Center: {x: -0.000016285627, y: -0.000053237065, z: -0.000033376804}
+--- !u!64 &1634581761359904520
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636104657060936891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8835897099134676049, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7467552255903134454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5636104657060936891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5667540495265654011
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +3627,8 @@ GameObject:
   - component: {fileID: 3581554362862113991}
   - component: {fileID: 8078434505266688015}
   - component: {fileID: 7217614599650271631}
+  - component: {fileID: 7448929555564170330}
+  - component: {fileID: 4332811671669869437}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -2993,10 +3723,36 @@ BoxCollider:
   m_GameObject: {fileID: 5667540495265654011}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.009714286, y: 0.0005999999, z: 0.012851311}
   m_Center: {x: -0.0013280088, y: -0.000009792142, z: 0.0002538305}
+--- !u!64 &7448929555564170330
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667540495265654011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4186689061812339785, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4332811671669869437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5667540495265654011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5720338320481994227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3010,6 +3766,8 @@ GameObject:
   - component: {fileID: 977446151968891176}
   - component: {fileID: 52752869201202162}
   - component: {fileID: 2226222300208778601}
+  - component: {fileID: 6762079124394031099}
+  - component: {fileID: 3858530611585456327}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3104,10 +3862,36 @@ BoxCollider:
   m_GameObject: {fileID: 5720338320481994227}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0040685153, y: 0.00059999933, z: 0.0026657959}
   m_Center: {x: -0.00011858123, y: 0.00001051188, z: -0.00013688425}
+--- !u!64 &6762079124394031099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720338320481994227}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6926258378963006223, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3858530611585456327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5720338320481994227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5903901370727154694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,6 +3905,8 @@ GameObject:
   - component: {fileID: 6817136819742135125}
   - component: {fileID: 8259060611819027379}
   - component: {fileID: 7685450746405552952}
+  - component: {fileID: 6782628897141882633}
+  - component: {fileID: 4187627330886388529}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3215,10 +4001,36 @@ BoxCollider:
   m_GameObject: {fileID: 5903901370727154694}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0042253667, y: 0.00059999985, z: 0.0063860146}
   m_Center: {x: -0.0001446068, y: -0.000015789465, z: 0.00022676222}
+--- !u!64 &6782628897141882633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903901370727154694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8944967724717550441, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4187627330886388529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5903901370727154694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6063459551696780204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3232,6 +4044,8 @@ GameObject:
   - component: {fileID: 7850243183908251769}
   - component: {fileID: 6851955772848683463}
   - component: {fileID: 8155463821060954094}
+  - component: {fileID: 7085466742195182422}
+  - component: {fileID: 8343511354048666416}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3326,10 +4140,36 @@ BoxCollider:
   m_GameObject: {fileID: 6063459551696780204}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.011037445, y: 0.0005999999, z: 0.009582039}
   m_Center: {x: 0.00025880337, y: -1.4551912e-10, z: -0.00019328456}
+--- !u!64 &7085466742195182422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063459551696780204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8962546144074272286, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &8343511354048666416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6063459551696780204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6230940681413831018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3343,6 +4183,8 @@ GameObject:
   - component: {fileID: 3788108151199825054}
   - component: {fileID: 3764402406620346194}
   - component: {fileID: 1559401043733516000}
+  - component: {fileID: 8099475467957143113}
+  - component: {fileID: 5522941777025732683}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3437,10 +4279,36 @@ BoxCollider:
   m_GameObject: {fileID: 6230940681413831018}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0073213996, y: 0.0005999999, z: 0.004168847}
   m_Center: {x: -0.0007655453, y: 0.000024487072, z: 0.0007426041}
+--- !u!64 &8099475467957143113
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6230940681413831018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3077477903835102052, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &5522941777025732683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6230940681413831018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6448185268491529903
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,6 +4322,8 @@ GameObject:
   - component: {fileID: 1953877215664774796}
   - component: {fileID: 7400677363754602908}
   - component: {fileID: 6017892364041930681}
+  - component: {fileID: 7792792851730043453}
+  - component: {fileID: 1949663381934792899}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3548,10 +4418,36 @@ BoxCollider:
   m_GameObject: {fileID: 6448185268491529903}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.010329515, y: 0.0005999998, z: 0.009467769}
   m_Center: {x: -0.00010170066, y: 4.365574e-11, z: 0.0014069737}
+--- !u!64 &7792792851730043453
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448185268491529903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5210361068624095583, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &1949663381934792899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6448185268491529903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6711782127551461400
 GameObject:
   m_ObjectHideFlags: 0
@@ -3565,6 +4461,8 @@ GameObject:
   - component: {fileID: 4270480350770615889}
   - component: {fileID: 3173320976525326883}
   - component: {fileID: 4528170593746671314}
+  - component: {fileID: 3409367458956155656}
+  - component: {fileID: 6577834287707694883}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3659,10 +4557,36 @@ BoxCollider:
   m_GameObject: {fileID: 6711782127551461400}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.012405605, y: 0.0005999999, z: 0.0061837165}
   m_Center: {x: -0.00087747583, y: -8.8766666e-10, z: -0.0002663085}
+--- !u!64 &3409367458956155656
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6711782127551461400}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 796609142090706367, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &6577834287707694883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6711782127551461400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6779875104662883410
 GameObject:
   m_ObjectHideFlags: 0
@@ -3676,6 +4600,8 @@ GameObject:
   - component: {fileID: 7557672629674703606}
   - component: {fileID: 3217785346688272242}
   - component: {fileID: 6100130731219629339}
+  - component: {fileID: 795075925829533507}
+  - component: {fileID: 4389532158598644609}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3770,10 +4696,36 @@ BoxCollider:
   m_GameObject: {fileID: 6779875104662883410}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.002623362, y: 0.00059999985, z: 0.0058872807}
   m_Center: {x: -0.00026196212, y: -0.000009088397, z: -0.000032725737}
+--- !u!64 &795075925829533507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6779875104662883410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2533761658842065750, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4389532158598644609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6779875104662883410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6782689323172898259
 GameObject:
   m_ObjectHideFlags: 0
@@ -3861,6 +4813,8 @@ GameObject:
   - component: {fileID: 289744099236259619}
   - component: {fileID: 3872268884604360192}
   - component: {fileID: 7054633735523766471}
+  - component: {fileID: 8055243263415633728}
+  - component: {fileID: 7507817674341081712}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -3955,10 +4909,36 @@ BoxCollider:
   m_GameObject: {fileID: 7032106374646556682}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0051388834, y: 0.00059999985, z: 0.013034486}
   m_Center: {x: -0.0006321209, y: 0.00002629027, z: -0.0012452668}
+--- !u!64 &8055243263415633728
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7032106374646556682}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7605859501284640448, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7507817674341081712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7032106374646556682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7039081285600980313
 GameObject:
   m_ObjectHideFlags: 0
@@ -3972,6 +4952,8 @@ GameObject:
   - component: {fileID: 5670438530038951201}
   - component: {fileID: 424805060144832233}
   - component: {fileID: 6080956969872581147}
+  - component: {fileID: 2647540274037508225}
+  - component: {fileID: 3060847310997803663}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4066,10 +5048,36 @@ BoxCollider:
   m_GameObject: {fileID: 7039081285600980313}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0070172665, y: 0.0005999999, z: 0.0040189186}
   m_Center: {x: 0.0018763884, y: -0.000038264676, z: -0.0007261983}
+--- !u!64 &2647540274037508225
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039081285600980313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4670367985865274552, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3060847310997803663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7039081285600980313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7313520612736615780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4083,6 +5091,8 @@ GameObject:
   - component: {fileID: 5287872496920837743}
   - component: {fileID: 6690306106467629040}
   - component: {fileID: 3441879047023703180}
+  - component: {fileID: 6332392174055002295}
+  - component: {fileID: 7770046356327223344}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4177,10 +5187,36 @@ BoxCollider:
   m_GameObject: {fileID: 7313520612736615780}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.008599268, y: 0.0005999999, z: 0.008819103}
   m_Center: {x: -0.0007786461, y: 1.3096721e-10, z: -0.000079539124}
+--- !u!64 &6332392174055002295
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313520612736615780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3959636536610897377, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &7770046356327223344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7313520612736615780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7327164729188349495
 GameObject:
   m_ObjectHideFlags: 0
@@ -4194,6 +5230,8 @@ GameObject:
   - component: {fileID: 7061093019261750447}
   - component: {fileID: 4230075250562789411}
   - component: {fileID: 7199362433236592893}
+  - component: {fileID: 950754562946365232}
+  - component: {fileID: 3620330058051830146}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4288,10 +5326,36 @@ BoxCollider:
   m_GameObject: {fileID: 7327164729188349495}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0082886955, y: 0.00059999985, z: 0.010120463}
   m_Center: {x: 0.000008444767, y: -2.9103825e-11, z: -0.0013760845}
+--- !u!64 &950754562946365232
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7327164729188349495}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 7682191473725244419, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &3620330058051830146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7327164729188349495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7404679351907617962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4305,6 +5369,8 @@ GameObject:
   - component: {fileID: 6660062830032292141}
   - component: {fileID: 1067549334608524710}
   - component: {fileID: 3661269971954911288}
+  - component: {fileID: 538072951598371110}
+  - component: {fileID: 9115349427463406862}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4399,10 +5465,36 @@ BoxCollider:
   m_GameObject: {fileID: 7404679351907617962}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0060995226, y: 0.0005999999, z: 0.008464121}
   m_Center: {x: 0.00050132186, y: 0.0000013691167, z: 0.0014460372}
+--- !u!64 &538072951598371110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404679351907617962}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6774288829469251291, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &9115349427463406862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404679351907617962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7640240871599415194
 GameObject:
   m_ObjectHideFlags: 0
@@ -4416,6 +5508,8 @@ GameObject:
   - component: {fileID: 8676665821656425481}
   - component: {fileID: 8243408127419485934}
   - component: {fileID: 3306056830119924347}
+  - component: {fileID: 1607598442182188090}
+  - component: {fileID: 4931212595776847384}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4510,10 +5604,36 @@ BoxCollider:
   m_GameObject: {fileID: 7640240871599415194}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.011712676, y: 0.0005999999, z: 0.008293062}
   m_Center: {x: -0.0009468198, y: -1.3459564e-18, z: 0.001042086}
+--- !u!64 &1607598442182188090
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640240871599415194}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5008027419533036381, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &4931212595776847384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7640240871599415194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7778373075162522725
 GameObject:
   m_ObjectHideFlags: 0
@@ -4541,8 +5661,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7778373075162522725}
   m_LocalRotation: {x: -0.7071067, y: -0.000000030908616, z: 0.000000030908623, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalPosition: {x: 0.00000011921, y: 0.000000029805, z: -0.28302}
+  m_LocalScale: {x: 100, y: 1043.4, z: 100}
   m_Children: []
   m_Father: {fileID: 7490770310320959978}
   m_RootOrder: 0
@@ -4652,6 +5772,8 @@ GameObject:
   - component: {fileID: 5721687203315135664}
   - component: {fileID: 6479347900227310957}
   - component: {fileID: 5619184026037069935}
+  - component: {fileID: 7225642728645328370}
+  - component: {fileID: 2293060264875918648}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4746,10 +5868,36 @@ BoxCollider:
   m_GameObject: {fileID: 7925965397195164285}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0010748517, y: 0.0005999999, z: 0.0016474014}
   m_Center: {x: 0.00026760576, y: -0.000027657146, z: -0.000094099945}
+--- !u!64 &7225642728645328370
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7925965397195164285}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1199633447904279591, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &2293060264875918648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7925965397195164285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8096309604156000528
 GameObject:
   m_ObjectHideFlags: 0
@@ -4763,6 +5911,8 @@ GameObject:
   - component: {fileID: 498708218517999552}
   - component: {fileID: 1555548277096889033}
   - component: {fileID: 122838706931826299}
+  - component: {fileID: 665645284106962272}
+  - component: {fileID: 5630493172271622363}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4857,10 +6007,36 @@ BoxCollider:
   m_GameObject: {fileID: 8096309604156000528}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.0014205378, y: 0.0005999999, z: 0.0016928167}
   m_Center: {x: -0.00039119186, y: -0.00002846389, z: 0.000108752785}
+--- !u!64 &665645284106962272
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8096309604156000528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2526175281082517582, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &5630493172271622363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8096309604156000528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8127282331536374107
 GameObject:
   m_ObjectHideFlags: 0
@@ -4874,6 +6050,8 @@ GameObject:
   - component: {fileID: 1252707825522307835}
   - component: {fileID: 3385084209767025849}
   - component: {fileID: 7380011797875154680}
+  - component: {fileID: 7226477079741423303}
+  - component: {fileID: 2265206026036184720}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -4968,10 +6146,36 @@ BoxCollider:
   m_GameObject: {fileID: 8127282331536374107}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.006364477, y: 0.0005999999, z: 0.004297235}
   m_Center: {x: 0.00009595754, y: -3.0559016e-10, z: 0.00004806625}
+--- !u!64 &7226477079741423303
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127282331536374107}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2068718112105962251, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &2265206026036184720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127282331536374107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8771223295959409756
 GameObject:
   m_ObjectHideFlags: 0
@@ -4985,6 +6189,8 @@ GameObject:
   - component: {fileID: 6707662019015835950}
   - component: {fileID: 2058562714960553528}
   - component: {fileID: 8954109645463117885}
+  - component: {fileID: 8739276683840396217}
+  - component: {fileID: 1671131447186524935}
   m_Layer: 8
   m_Name: Piece Broken Wall
   m_TagString: Untagged
@@ -5079,7 +6285,33 @@ BoxCollider:
   m_GameObject: {fileID: 8771223295959409756}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.012472941, y: 0.00059999985, z: 0.011254661}
   m_Center: {x: 0.00070724194, y: 0.0000047699423, z: -0.0013120631}
+--- !u!64 &8739276683840396217
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771223295959409756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6432368725042040101, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
+--- !u!114 &1671131447186524935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771223295959409756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
