@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class ToolMover : MonoBehaviour
 {
-    [SerializeField] private float speed = 10.0f;
+    [SerializeField] private Dust _dust;
+    [SerializeField] private float _timeDustCreator;
+    [SerializeField] private float _speedRotate = 10.0f;
     private Vector3 _newPosition;
     private Vector3 _oldPosition;
 
@@ -15,7 +18,7 @@ public class ToolMover : MonoBehaviour
     {
         var dir = (_newPosition - _oldPosition).normalized;
         var lookRotation = Quaternion.LookRotation(new Vector3(dir.x, dir.y, 0), Vector3.forward);
-        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * speed);
+        transform.rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * _speedRotate);
     }
 
     public void Move(Vector3 newPosition)

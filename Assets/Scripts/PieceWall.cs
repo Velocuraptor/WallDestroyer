@@ -4,17 +4,34 @@ using UnityEngine;
 
 public class PieceWall : MonoBehaviour
 {
+    [SerializeField] private BrokenWall _brokenWall;
+    [SerializeField] private Dust _dust;
+    [SerializeField] private int _countEdge;
     [SerializeField] private List<PieceWall> _neighbours;
     [SerializeField] private bool _isEnd;
 
     private Rigidbody _rigidBody;
     private bool _isBreak;
 
-    public void RemoveNeighbour(PieceWall neigbor) => _neighbours.Remove(neigbor);
+    private void RemoveNeighbour(PieceWall neigbor) => _neighbours.Remove(neigbor);
 
+    [SerializeField] private List<PieceWall> _NEWneighbours;
+
+    [ContextMenu("ColorNeighbor")]
+    private void ColorNeighbor()
+    {
+        foreach (var item in _NEWneighbours)
+        {
+            item.GetComponent<MeshRenderer>(). materials[1].color = Color.green;
+        }
+    }
     private void Start()
     {
         _rigidBody = gameObject.GetComponent<Rigidbody>();
+
+        _NEWneighbours = _brokenWall.GetAllPieces.Where(p => p != this)
+            .OrderBy(p => Vector3.Distance(transform.localPosition, p.transform.localPosition))
+            .Take(_countEdge).ToList();
     }
 
     public void Break()
@@ -23,56 +40,49 @@ public class PieceWall : MonoBehaviour
             return;
 
         _isBreak = true;
-
-        var bigPiece = new List<PieceWall>();
-
-        if (!IsBigPiece(ref bigPiece))
-        {
-            _rigidBody.isKinematic = false;
-            DeleteNeighbours();
-        }
-        else
-        {
-            for (int i = 1; i < bigPiece.Count; i++)
-            {
-                bigPiece[i].gameObject.AddComponent<FixedJoint>().connectedBody = _rigidBody;
-            }
-
-            foreach (var piece in bigPiece)
-                piece._rigidBody.isKinematic = false;
-
-            foreach (var piece in bigPiece)
-                piece.DeleteNeighbours();
-        }
-
+        _rigidBody.isKinematic = false;
         var position = transform.localPosition;
         position.z += 0.4f;
         transform.localPosition = position;
-    }
 
-    private void DeleteNeighbours()
-    {
+        Instantiate(_dust, transform.position, Quaternion.identity);
+
         foreach (var neighbour in _neighbours)
             neighbour.RemoveNeighbour(this);
+
+        _brokenWall.CheckBigPieces(_neighbours);
         _neighbours.Clear();
     }
 
-    private bool IsBigPiece(ref List<PieceWall> bigPiece)
+    public void BreakPeaceBigPeace()
     {
-        bigPiece.Add(this);
+        _isBreak = true;
+        _rigidBody.isKinematic = false;
+        var position = transform.localPosition;
+        position.z += 0.4f;
+        transform.localPosition = position;
 
-        if (_isEnd)
-            return false;
+        Instantiate(_dust, transform.position, Quaternion.identity);
 
         foreach (var neighbour in _neighbours)
-        {
-            if (bigPiece.Any(b => b == neighbour))
-                continue;
-            if (!neighbour.IsBigPiece(ref bigPiece))
-                return false;
-        }
+            neighbour.RemoveNeighbour(this);
 
-        return true;
+        _neighbours.Clear();
     }
 
+    public bool CheckNeighbours(ref List<PieceWall> bigPiece)
+    {
+        if (_isEnd || _isBreak)
+            return false;
+
+        bigPiece.Add(this);
+        foreach (var neighbor in _neighbours)
+        {
+            if (bigPiece.Any(p => p == neighbor))
+                continue;
+            if (!neighbor.CheckNeighbours(ref bigPiece))
+                return false;
+        }
+        return true;
+    }
 }

@@ -110,7 +110,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7641948127085445478, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &2700875916796239399
@@ -125,6 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 6577834287707694883}
   - {fileID: 4152783593760058376}
@@ -132,6 +135,7 @@ MonoBehaviour:
   - {fileID: 8343511354048666416}
   - {fileID: 6070915973022313326}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &199092861184508831
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,7 +246,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2892015211251007695, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &8578751587882853587
@@ -257,12 +261,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 3745137491584317952}
   - {fileID: 1497531230910790982}
   - {fileID: 3858530611585456327}
   - {fileID: 4332811671669869437}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &295650590610538743
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,7 +381,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4130623488625926497, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &6482916694083296375
@@ -388,12 +396,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 4931212595776847384}
   - {fileID: 5186077859286250920}
   - {fileID: 4187627330886388529}
   - {fileID: 2293060264875918648}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &373241334340386446
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +516,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3449077440702217646, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &5073715864877712525
@@ -519,6 +531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 8
   _neighbours:
   - {fileID: 5625264243169990478}
   - {fileID: 1949663381934792899}
@@ -529,6 +544,7 @@ MonoBehaviour:
   - {fileID: 5522941777025732683}
   - {fileID: 9115349427463406862}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &394773544791721612
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,7 +655,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3744952043271048744, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &5625264243169990478
@@ -654,6 +670,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 731338632967824257}
   - {fileID: 2265206026036184720}
@@ -662,6 +681,7 @@ MonoBehaviour:
   - {fileID: 5073715864877712525}
   - {fileID: 9115349427463406862}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &950920363575835870
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +792,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4785877010036880936, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &8427098789069971952
@@ -787,12 +807,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 4462099418658895710}
   - {fileID: 7336521915003134229}
   - {fileID: 1671131447186524935}
   - {fileID: 7133854830311449429}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &1263501628870241048
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,7 +927,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5582601643039380411, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &8175022845679628460
@@ -918,6 +942,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 8
   _neighbours:
   - {fileID: 4187627330886388529}
   - {fileID: 6070996141409802479}
@@ -928,6 +955,7 @@ MonoBehaviour:
   - {fileID: 3620330058051830146}
   - {fileID: 5186077859286250920}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &1264134258971082685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1038,7 +1066,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4364516649673625031, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &7864759822354951893
@@ -1053,12 +1081,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 1949663381934792899}
   - {fileID: 4641430141378573969}
   - {fileID: 4332811671669869437}
   - {fileID: 3964527060434200711}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &1340356797557342202
 GameObject:
   m_ObjectHideFlags: 0
@@ -1169,7 +1201,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4596422728647792003, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3964527060434200711
@@ -1184,6 +1216,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 4332811671669869437}
   - {fileID: 3858530611585456327}
@@ -1192,6 +1227,7 @@ MonoBehaviour:
   - {fileID: 1949663381934792899}
   - {fileID: 7864759822354951893}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &1390988500999286962
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,7 +1338,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8547856553496210073, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4641430141378573969
@@ -1317,12 +1353,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 4332811671669869437}
   - {fileID: 7864759822354951893}
   - {fileID: 1949663381934792899}
   - {fileID: 8175022845679628460}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &1600307936207644123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1433,7 +1473,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3901742461176028224, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &7133854830311449429
@@ -1448,11 +1488,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 8427098789069971952}
   - {fileID: 1671131447186524935}
   - {fileID: 1497531230910790982}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2024673573679387524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1563,7 +1607,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6025908073496960589, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &9057299033593198299
@@ -1578,11 +1622,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 6070996141409802479}
   - {fileID: 8175022845679628460}
   - {fileID: 4332811671669869437}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2154960120509687184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,7 +1741,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1303681965768186480, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3745137491584317952
@@ -1708,10 +1756,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 2
   _neighbours:
   - {fileID: 8578751587882853587}
   - {fileID: 1497531230910790982}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2202750852276519931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1874,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1848666650473467909, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &6070996141409802479
@@ -1837,11 +1889,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 4187627330886388529}
   - {fileID: 8175022845679628460}
   - {fileID: 9057299033593198299}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2267459002611013708
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,7 +2008,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6845181977087966689, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4462099418658895710
@@ -1967,10 +2023,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 2
   _neighbours:
   - {fileID: 7336521915003134229}
   - {fileID: 8427098789069971952}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2307273470342428366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2081,7 +2141,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3063467942922132695, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4152783593760058376
@@ -2096,11 +2156,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 6577834287707694883}
   - {fileID: 2700875916796239399}
   - {fileID: 4931212595776847384}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &2501782879996591991
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,7 +2275,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6421912417066313209, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &1402208317684152826
@@ -2226,6 +2290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 1173753148927138614}
   - {fileID: 7507817674341081712}
@@ -2234,6 +2301,7 @@ MonoBehaviour:
   - {fileID: 2265206026036184720}
   - {fileID: 731338632967824257}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &2598179580225945116
 GameObject:
   m_ObjectHideFlags: 0
@@ -2344,7 +2412,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1704726403805661433, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &1497531230910790982
@@ -2359,6 +2427,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 3745137491584317952}
   - {fileID: 8578751587882853587}
@@ -2366,6 +2437,7 @@ MonoBehaviour:
   - {fileID: 1671131447186524935}
   - {fileID: 7133854830311449429}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &3721020287610668192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2476,7 +2548,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8651760758057392030, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &5186077859286250920
@@ -2491,6 +2563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 7
   _neighbours:
   - {fileID: 4931212595776847384}
   - {fileID: 6482916694083296375}
@@ -2500,6 +2575,7 @@ MonoBehaviour:
   - {fileID: 7770046356327223344}
   - {fileID: 8343511354048666416}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &3943394856140856806
 GameObject:
   m_ObjectHideFlags: 0
@@ -2610,7 +2686,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7758186078940782761, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &2820372965235783579
@@ -2625,12 +2701,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 6577834287707694883}
   - {fileID: 6070915973022313326}
   - {fileID: 7507817674341081712}
   - {fileID: 5630493172271622363}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &4286001673897650309
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,7 +2821,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4975766541227002599, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &7336521915003134229
@@ -2756,6 +2836,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 5522941777025732683}
   - {fileID: 3060847310997803663}
@@ -2764,6 +2847,7 @@ MonoBehaviour:
   - {fileID: 8427098789069971952}
   - {fileID: 4462099418658895710}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &4843256225591759298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2874,7 +2958,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 9180187126510820361, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3216944767022363985
@@ -2889,12 +2973,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 1173753148927138614}
   - {fileID: 731338632967824257}
   - {fileID: 9115349427463406862}
   - {fileID: 4389532158598644609}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &5413015315957478936
 GameObject:
   m_ObjectHideFlags: 0
@@ -3005,7 +3093,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6975870805220707279, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &6070915973022313326
@@ -3020,6 +3108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 7
   _neighbours:
   - {fileID: 2820372965235783579}
   - {fileID: 6577834287707694883}
@@ -3029,6 +3120,7 @@ MonoBehaviour:
   - {fileID: 1402208317684152826}
   - {fileID: 7507817674341081712}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &5435073675469008691
 GameObject:
   m_ObjectHideFlags: 0
@@ -3139,7 +3231,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4383630576681542623, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &1173753148927138614
@@ -3154,12 +3246,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 7507817674341081712}
   - {fileID: 1402208317684152826}
   - {fileID: 731338632967824257}
   - {fileID: 3216944767022363985}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &5556883146957792627
 GameObject:
   m_ObjectHideFlags: 0
@@ -3270,7 +3366,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1892199594819710439, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &731338632967824257
@@ -3285,6 +3381,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 1173753148927138614}
   - {fileID: 1402208317684152826}
@@ -3293,6 +3392,7 @@ MonoBehaviour:
   - {fileID: 3216944767022363985}
   - {fileID: 5625264243169990478}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &5667540495265654011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3403,7 +3503,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4186689061812339785, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4332811671669869437
@@ -3418,6 +3518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 7
   _neighbours:
   - {fileID: 9057299033593198299}
   - {fileID: 8175022845679628460}
@@ -3427,6 +3530,7 @@ MonoBehaviour:
   - {fileID: 3858530611585456327}
   - {fileID: 8578751587882853587}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &5720338320481994227
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,7 +3641,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6926258378963006223, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3858530611585456327
@@ -3552,6 +3656,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 8578751587882853587}
   - {fileID: 1497531230910790982}
@@ -3559,6 +3666,7 @@ MonoBehaviour:
   - {fileID: 3964527060434200711}
   - {fileID: 4332811671669869437}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &5903901370727154694
 GameObject:
   m_ObjectHideFlags: 0
@@ -3669,7 +3777,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8944967724717550441, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4187627330886388529
@@ -3684,6 +3792,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 2293060264875918648}
   - {fileID: 6482916694083296375}
@@ -3691,6 +3802,7 @@ MonoBehaviour:
   - {fileID: 8175022845679628460}
   - {fileID: 6070996141409802479}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &6063459551696780204
 GameObject:
   m_ObjectHideFlags: 0
@@ -3801,7 +3913,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 8962546144074272286, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &8343511354048666416
@@ -3816,6 +3928,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 4931212595776847384}
   - {fileID: 5186077859286250920}
@@ -3823,6 +3938,7 @@ MonoBehaviour:
   - {fileID: 6070915973022313326}
   - {fileID: 2700875916796239399}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &6230940681413831018
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,7 +4033,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3077477903835102052, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!54 &3764402406620346194
@@ -3948,12 +4064,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 4389532158598644609}
   - {fileID: 9115349427463406862}
   - {fileID: 7336521915003134229}
   - {fileID: 3060847310997803663}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &6448185268491529903
 GameObject:
   m_ObjectHideFlags: 0
@@ -4064,7 +4184,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5210361068624095583, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &1949663381934792899
@@ -4079,6 +4199,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 7
   _neighbours:
   - {fileID: 4641430141378573969}
   - {fileID: 7864759822354951893}
@@ -4088,6 +4211,7 @@ MonoBehaviour:
   - {fileID: 3620330058051830146}
   - {fileID: 8175022845679628460}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &6711782127551461400
 GameObject:
   m_ObjectHideFlags: 0
@@ -4198,7 +4322,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 796609142090706367, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &6577834287707694883
@@ -4213,12 +4337,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 4
   _neighbours:
   - {fileID: 2820372965235783579}
   - {fileID: 6070915973022313326}
   - {fileID: 2700875916796239399}
   - {fileID: 4152783593760058376}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &6779875104662883410
 GameObject:
   m_ObjectHideFlags: 0
@@ -4329,7 +4457,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2533761658842065750, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4389532158598644609
@@ -4344,11 +4472,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 3216944767022363985}
   - {fileID: 9115349427463406862}
   - {fileID: 5522941777025732683}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &6782689323172898259
 GameObject:
   m_ObjectHideFlags: 0
@@ -4358,6 +4490,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1698103105940740727}
+  - component: {fileID: 5920317466041537727}
   m_Layer: 0
   m_Name: BrokenWall
   m_TagString: Untagged
@@ -4422,6 +4555,62 @@ Transform:
   m_Father: {fileID: 7490770310320959978}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5920317466041537727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6782689323172898259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9107e9cde936eb341a1b7999405873aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _piecesWall:
+  - {fileID: 5522941777025732683}
+  - {fileID: 3620330058051830146}
+  - {fileID: 4641430141378573969}
+  - {fileID: 1671131447186524935}
+  - {fileID: 8578751587882853587}
+  - {fileID: 7770046356327223344}
+  - {fileID: 4931212595776847384}
+  - {fileID: 7336521915003134229}
+  - {fileID: 1949663381934792899}
+  - {fileID: 9115349427463406862}
+  - {fileID: 4332811671669869437}
+  - {fileID: 2820372965235783579}
+  - {fileID: 7133854830311449429}
+  - {fileID: 2700875916796239399}
+  - {fileID: 6070996141409802479}
+  - {fileID: 5186077859286250920}
+  - {fileID: 6070915973022313326}
+  - {fileID: 1402208317684152826}
+  - {fileID: 8175022845679628460}
+  - {fileID: 3858530611585456327}
+  - {fileID: 3964527060434200711}
+  - {fileID: 1497531230910790982}
+  - {fileID: 8343511354048666416}
+  - {fileID: 3745137491584317952}
+  - {fileID: 2293060264875918648}
+  - {fileID: 1173753148927138614}
+  - {fileID: 3216944767022363985}
+  - {fileID: 8427098789069971952}
+  - {fileID: 4187627330886388529}
+  - {fileID: 4152783593760058376}
+  - {fileID: 5073715864877712525}
+  - {fileID: 4462099418658895710}
+  - {fileID: 4389532158598644609}
+  - {fileID: 731338632967824257}
+  - {fileID: 5625264243169990478}
+  - {fileID: 5630493172271622363}
+  - {fileID: 3060847310997803663}
+  - {fileID: 6482916694083296375}
+  - {fileID: 6577834287707694883}
+  - {fileID: 7507817674341081712}
+  - {fileID: 2265206026036184720}
+  - {fileID: 7864759822354951893}
+  - {fileID: 9057299033593198299}
 --- !u!1 &7032106374646556682
 GameObject:
   m_ObjectHideFlags: 0
@@ -4532,7 +4721,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -7605859501284640448, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &7507817674341081712
@@ -4547,12 +4736,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 5630493172271622363}
   - {fileID: 2820372965235783579}
   - {fileID: 6070915973022313326}
   - {fileID: 1402208317684152826}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &7039081285600980313
 GameObject:
   m_ObjectHideFlags: 0
@@ -4663,7 +4856,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4670367985865274552, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3060847310997803663
@@ -4678,11 +4871,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 3
   _neighbours:
   - {fileID: 5522941777025732683}
   - {fileID: 5073715864877712525}
   - {fileID: 7336521915003134229}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &7313520612736615780
 GameObject:
   m_ObjectHideFlags: 0
@@ -4793,7 +4990,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3959636536610897377, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &7770046356327223344
@@ -4808,6 +5005,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 2265206026036184720}
   - {fileID: 1402208317684152826}
@@ -4816,6 +5016,7 @@ MonoBehaviour:
   - {fileID: 5186077859286250920}
   - {fileID: 3620330058051830146}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &7327164729188349495
 GameObject:
   m_ObjectHideFlags: 0
@@ -4926,7 +5127,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 7682191473725244419, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &3620330058051830146
@@ -4941,6 +5142,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 7770046356327223344}
   - {fileID: 5186077859286250920}
@@ -4949,6 +5153,7 @@ MonoBehaviour:
   - {fileID: 2265206026036184720}
   - {fileID: 5625264243169990478}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &7404679351907617962
 GameObject:
   m_ObjectHideFlags: 0
@@ -5059,7 +5264,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 6774288829469251291, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &9115349427463406862
@@ -5074,6 +5279,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 6
   _neighbours:
   - {fileID: 5522941777025732683}
   - {fileID: 4389532158598644609}
@@ -5082,6 +5290,7 @@ MonoBehaviour:
   - {fileID: 5625264243169990478}
   - {fileID: 5073715864877712525}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &7640240871599415194
 GameObject:
   m_ObjectHideFlags: 0
@@ -5192,7 +5401,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -5008027419533036381, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &4931212595776847384
@@ -5207,6 +5416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 4152783593760058376}
   - {fileID: 2700875916796239399}
@@ -5214,6 +5426,7 @@ MonoBehaviour:
   - {fileID: 5186077859286250920}
   - {fileID: 6482916694083296375}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &7778373075162522725
 GameObject:
   m_ObjectHideFlags: 0
@@ -5449,7 +5662,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1199633447904279591, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &2293060264875918648
@@ -5464,10 +5677,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 2
   _neighbours:
   - {fileID: 6482916694083296375}
   - {fileID: 4187627330886388529}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &8096309604156000528
 GameObject:
   m_ObjectHideFlags: 0
@@ -5578,7 +5795,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -2526175281082517582, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &5630493172271622363
@@ -5593,10 +5810,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 2
   _neighbours:
   - {fileID: 2820372965235783579}
   - {fileID: 7507817674341081712}
   _isEnd: 1
+  _NEWneighbours: []
 --- !u!1 &8127282331536374107
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,7 +5928,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2068718112105962251, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &2265206026036184720
@@ -5722,6 +5943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 5
   _neighbours:
   - {fileID: 731338632967824257}
   - {fileID: 5625264243169990478}
@@ -5729,6 +5953,7 @@ MonoBehaviour:
   - {fileID: 7770046356327223344}
   - {fileID: 1402208317684152826}
   _isEnd: 0
+  _NEWneighbours: []
 --- !u!1 &8771223295959409756
 GameObject:
   m_ObjectHideFlags: 0
@@ -5839,7 +6064,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6432368725042040101, guid: d801b1afba15b284d871399a4180c6c6, type: 3}
 --- !u!114 &1671131447186524935
@@ -5854,6 +6079,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fa61b50845da6e4e88d50e61d5383b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _brokenWall: {fileID: 5920317466041537727}
+  _dust: {fileID: 2398663343672511307, guid: 734d8bd975fa09f48b957754d02fd709, type: 3}
+  _countEdge: 7
   _neighbours:
   - {fileID: 7133854830311449429}
   - {fileID: 8427098789069971952}
@@ -5863,3 +6091,4 @@ MonoBehaviour:
   - {fileID: 3858530611585456327}
   - {fileID: 1497531230910790982}
   _isEnd: 0
+  _NEWneighbours: []

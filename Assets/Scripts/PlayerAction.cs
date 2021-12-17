@@ -33,7 +33,10 @@ public class PlayerAction : MonoBehaviour
 
             var pieceWall = hit.collider.gameObject.GetComponent<PieceWall>();
             if (pieceWall)
+            {
                 pieceWall.Break();
+            }
+
         }
     }
 }

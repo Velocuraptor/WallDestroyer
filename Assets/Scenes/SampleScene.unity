@@ -538,7 +538,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1237169915312264197e1555cbfbc0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  _dust: {fileID: 4176510243847770241, guid: 45554ef4a119441459a98b4dd0bda157, type: 3}
+  _timeDustCreator: 3
+  _speedRotate: 20
 --- !u!1001 &4165922422211304333
 PrefabInstance:
   m_ObjectHideFlags: 0
