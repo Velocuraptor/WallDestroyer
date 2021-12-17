@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class ToolMover : MonoBehaviour
 {
-    [SerializeField] private Dust _dust;
-    [SerializeField] private float _timeDustCreator;
     [SerializeField] private float _speedRotate = 10.0f;
     private Vector3 _newPosition;
     private Vector3 _oldPosition;
